@@ -10,7 +10,7 @@ I studied Computer Science and Artificial Intelligence at Aberystwyth University
 
 #### Tools
 
-- **[Tokenmeter](https://github.com/Adi-debug-source/tokenmeter)** (Python, with a Swift menu bar app). Shows what AI coding usage would have cost at API rates, read from the local logs of Claude Code, Codex, Gemini CLI and other coding agents. Its Claude Code totals match that tool's own cost figures to ten decimal places. Standard-library Python with nothing to install, and tested in CI on macOS and Linux.
+- **[Tokenmeter](https://github.com/Adi-debug-source/tokenmeter)** (Python, with a Swift menu bar app). Shows what AI coding usage would have cost at API rates, read from the local logs of Claude Code, Codex, Gemini CLI and other coding agents. Its Claude Code totals match that tool's own cost figures to ten decimal places. Standard-library Python with no packages to install, and tested in CI on macOS and Linux.
 - **[Bytemeter](https://github.com/Adi-debug-source/bytemeter)** (Swift). A native macOS menu bar app that counts the data a Mac sends and receives, broken down by interface and by app, with a dashboard and a CSV export. It has no dependencies and makes no network requests of its own. The counting engine lives in its own target, so an iOS version can reuse it.
 
 In development, not public yet: Immaculate, a native macOS cleaner and system monitor in SwiftUI.
@@ -19,14 +19,14 @@ In development, not public yet: Immaculate, a native macOS cleaner and system mo
 
 I decide what each tool does, write part of the code by hand and direct AI coding agents for the rest, and I check every change through tests and real use.
 
-Privately, I run a multi-agent assistant I designed for my own work: a coordinator that routes each request to 14 specialist agents, each fenced to its own remit. It runs on rules I wrote and Python guard hooks kept under test, and stays on my own machine.
+Privately, I run a multi-agent assistant I designed for my own work: a coordinator that routes each request to 14 specialist agents, each fenced to its own remit. It runs on rules I wrote and Python guard hooks kept under test, and stays on my own Mac.
 
 #### Stack
 
-In the tools above: Python, Swift and SwiftUI. Also: Java, TypeScript, JavaScript, HTML and CSS, C++ and MySQL.
+In the tools above: Python and Swift, with SwiftUI in Immaculate. Also: Java, TypeScript, JavaScript, HTML and CSS, C++ and MySQL.
 
 ---
 
-I am looking for a graduate or junior role in software or AI engineering in the UK, and happy to relocate. I am also open to freelance projects. Each repository has a changelog and a test suite, the quickest way to see how I work.
+I am looking for a graduate or junior role in software or AI engineering in the UK, and I am happy to relocate. I am also open to freelance projects. Both tools have a changelog and a test suite, the quickest way to see how I work.
 
 Contact: analog.universe@proton.me
